@@ -26,11 +26,11 @@ def printSecuense(n):
 
 if __name__ == "__main__":
     printSecuense(16)#1, 2, 3, 4, 3, 4, 5, 6, 5, 6, 7, 8, ...
-
+    #Examples
     print(simpleSequense(0)) #Output 1
     print(simpleSequense(5))#Output 4
     print(simpleSequense(76)) #Output 39
     print(simpleSequense(545421)) #Output 272712
-        
-    print(simpleSequense(87123641123172368))
-    print(simpleSequense(4611686018327187))
+    #Test   
+    print(simpleSequense(87123641123172368)) #Output 43561820561586185
+    print(simpleSequense(4611686018327187)) #Output 2305843009163596
